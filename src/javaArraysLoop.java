@@ -4,8 +4,8 @@ public class javaArraysLoop {
         int [] scores = {56,87,89,23,34};
          scores[0] = 100;
         System.out.println(scores[0]);
-        for(int i = 0; i < scores.length; ++i){
-            System.out.println("score" + i +":" + scores[i]);
+        for(int score : scores){
+            System.out.println("score :" + score );
         }
 
     }
