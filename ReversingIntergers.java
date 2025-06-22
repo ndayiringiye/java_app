@@ -1,5 +1,3 @@
-
-
 public class ReversingIntergers {
     public static void main(String[] args) {
         int left = 0;
