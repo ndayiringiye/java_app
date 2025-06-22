@@ -1,9 +1,9 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        int age = 5;
-        int height = 45;
-        int weight = 67;
-        int accelerator = age + height+ weight -2;
-        System.out.println(accelerator);
+        int [] ages = new int [5];
+        int [] scores = {56,87,89,23,34};
+         scores[0] = 100;
+        System.out.println(scores[0]);
+
     }
 }
